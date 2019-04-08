@@ -1,6 +1,6 @@
 ## **Configuration service**
 
-Configuration service is a part of microservices application Online store. It manages a services configuration information.
+Configuration service is a part of microservices application Online store. It manages services configuration information.
 
 ## **Building**
 
