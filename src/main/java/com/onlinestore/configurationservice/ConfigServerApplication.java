@@ -3,11 +3,13 @@ package com.onlinestore.configurationservice;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * Class that bootstraps this service.
  */
 @SpringBootApplication
+@EnableEurekaClient
 @EnableConfigServer
 public class ConfigServerApplication {
 	/**
