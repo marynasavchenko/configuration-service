@@ -25,12 +25,9 @@ mvn clean test
 
 ## **Technology stack**
 
-* Java 8
-* Spring Boot 2
+* Java
+* Spring Boot
 * Spring Cloud
-
-* jUnit 4
-* Mockito
 
 * Maven
 * Docker
