@@ -1,8 +1,17 @@
 ## **Configuration service**
 
-Configuration service is a part of microservices application Online store.
+Configuration service is a part of microservices-based application Online store.
 It manages services configuration data that is read during the service bootstrapping phase.
 Configuration of an application is separated from the actual code being deployed.
+
+## **Technology stack**
+
+* Java 8
+* Spring Boot 2
+* Spring Cloud 2
+
+* Maven
+* Docker
 
 ## **Building**
 
@@ -25,11 +34,3 @@ To run tests via Maven:
 mvn clean test
 ```
 
-## **Technology stack**
-
-* Java
-* Spring Boot
-* Spring Cloud
-
-* Maven
-* Docker
